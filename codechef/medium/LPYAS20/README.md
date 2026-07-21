@@ -26,7 +26,7 @@ Write a program to output the squares (using multiplication) of numbers from 1 t
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-21T18:18:00.506Z  
+**Submitted:** 2026-07-21T18:18:20.141Z  
 
 ```py
 print(1,"-",1*1)
