@@ -4,21 +4,27 @@
 
 ## Problem
 
-_Description not available._
+Write a program to output the square of * (stars) of size 4 (check the output below).
+
+```
+  
+  
+  
+   
+
+```
 
 ## Solution
 
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-02T14:49:48.999Z  
+**Submitted:** 2026-08-02T14:50:48.777Z  
 
 ```py
-print("1 -",1*1)
-print("2 -",2*2)
-print("3 -",3*3)
-print("4 -",4*4)
-print("5 -",5*5)
+for i in range(4):
+    print("****")
+
 
 ```
 
