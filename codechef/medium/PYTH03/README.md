@@ -31,11 +31,9 @@ These two lines perform identical tasks; the first utilizes double quotes, while
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-21T18:11:02.054Z  
+**Submitted:** 2026-08-02T14:41:02.264Z  
 
 ```py
-# Replace print(___) with print("I love Python")
-
 print("I love Python")
 
 ```
