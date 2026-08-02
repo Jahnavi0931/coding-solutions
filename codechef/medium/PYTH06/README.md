@@ -8,13 +8,15 @@ _Description not available._
 
 ## Solution
 
-**Language:** Python  
+**Language:** default  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-02T14:39:13.468Z  
+**Submitted:** 2026-08-02T14:42:25.475Z  
 
-```py
-print(12)
+```default
+# Replace the code print(__ + __) with print(21 + 40)
+
+print(21+40)
 ```
 
 ---
