@@ -1,4 +1,3 @@
-# Update the '_' below to solve the problem
-
-print(11*13)          # Area of the rectangle
-print(2 * (11+13))    # Perimeter of the rectangle
+# Update the '_' in the code below to provide the following output
+# 7 3
+print(3 + 4, 2 + 1)
