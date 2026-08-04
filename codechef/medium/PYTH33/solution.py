@@ -1,5 +1,6 @@
-s=14
-area=s*s
-print(area)
-cost=area*7
-print(cost)
+a=-50
+b=40
+total=a+b
+product=a*b
+print(total,product)
+
