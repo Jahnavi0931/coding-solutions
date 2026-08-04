@@ -4,30 +4,31 @@
 
 ## Problem
 
-### Cost of painting
+### Negative Numbers
 
 Listen
 
-Write a program which does the following
+Write a program which does the following:
 
-- Find the area of a square of side 14cm.
-- Also, find the cost of painting the square if the paint costs is 7$ per $cm^2$.
-- Initialize the following variables in your program and use them in the computation s to store the length of side the square area to store the area of the square cost to store the cost of painting
-- Output area and cost to the console on separate lines.
+- Display the sum and product of 2 integers: -50 & 40.
+- Initialize the following variables in your program and use them in the computation Variable a and assign it the value -50 Variable b assign it the value 40 Variables total & product - assign the relevant values to them
+- Output total and product as space separated values on a single lines
 
 ## Solution
 
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-04T16:34:05.001Z  
+**Submitted:** 2026-08-04T16:36:16.823Z  
 
 ```py
-s=14
-area=s*s
-print(area)
-cost=area*7
-print(cost)
+a=-50
+b=40
+total=a+b
+product=a*b
+print(total,product)
+
+
 ```
 
 ---
