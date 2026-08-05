@@ -60,7 +60,7 @@ print(length)  # Output: 20
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-04T16:55:01.412Z  
+**Submitted:** 2026-08-05T12:56:25.256Z  
 
 ```py
 length = 11
