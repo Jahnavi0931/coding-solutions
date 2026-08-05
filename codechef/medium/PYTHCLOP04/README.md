@@ -6,12 +6,13 @@
 
 ### Multiple choice question
 
-What will be the value of x after the following statement?
+What would be the output of the code below?
 
 ```
-x = 7
-x *= 3
-print(x)
+a = 10
+b = 2
+a /= b
+print(a)
 
 ```
 
@@ -20,7 +21,7 @@ print(x)
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-05T12:56:40.504Z  
+**Submitted:** 2026-08-05T12:56:56.280Z  
 
 ```cpp
 length = 11
