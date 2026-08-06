@@ -46,13 +46,13 @@ Write a program which does the following
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-06T13:17:43.074Z  
+**Submitted:** 2026-08-06T13:18:18.518Z  
 
 ```py
 # Update your code below this line
 x="Hello"
 y="World"
-print(x,"",y)
+print(x, "" , y)
 ```
 
 ---
