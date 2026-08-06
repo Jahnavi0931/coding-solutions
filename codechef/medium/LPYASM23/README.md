@@ -4,32 +4,23 @@
 
 ## Problem
 
-Calculate and output the area and perimeter of a rectangle having length = 9 and breadth = 8 using the following steps
+Given the temperature in Celsius (30 deg C), calculate the temperature in Fahrenheit using the following steps
 
-- Create two variables length and breadth with values 9 and 8
-- Calculate and print the area of the rectangle
-- Calculate and print the perimeter of the rectangle
-### Hint
-
-Area of a rectangle = length x breadth
-Perimeter of the rectangle = 2 * (length + breadth)
+- Create a variable celsius and initialise it to 30
+- Calculate and print the temperature in Fahrenheit using the formula: (celsius * 9/5) + 32
 
 ## Solution
 
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-06T13:05:35.695Z  
+**Submitted:** 2026-08-06T13:07:03.013Z  
 
 ```py
 # cook your dish here
-l=9
-b=8
-area=l*b
-perimeter=2*(l+b)
-print(area)
-print(perimeter)
-
+celsius=30
+fahrenheit=(celsius*9/5)+32
+print(fahrenheit)
 ```
 
 ---
