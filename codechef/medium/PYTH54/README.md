@@ -4,29 +4,37 @@
 
 ## Problem
 
-### Calculator
+### Hello user
 
 Listen
 
 Write a program which does the following
 
-- Create a calculator
-- Initialize the variables a and b based on two user inputs
-- Declare an integer variable sum - and store the value of addition of a and b
-- Declare an integer variable diff - and store the value of subtraction of a and b
-- Output sum and diff to the console on separate lines
+- Declare a string variable x
+- Accept a text user input - the name of the user - and store it in the variable x
+- Output and print to the console Hello before the user defined name. Remember to add a space between Hello and x
 ### Sample 1:
 Input
 Output
 
 ```
-35
-23
+Chef
 ```
 
 ```
-58
-12
+Hello Chef
+```
+
+### Sample 2:
+Input
+Output
+
+```
+Chefina
+```
+
+```
+Hello Chefina
 ```
 
 ## Solution
@@ -34,17 +42,12 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-07T13:07:20.028Z  
+**Submitted:** 2026-08-07T13:06:19.581Z  
 
 ```py
-# Update your code below this line
 
-a = int(input())
-b = int(input())
-sum=a+b
-print(sum)
-diff=a-b
-print(diff)
+x=input()
+print("Hello", x)
 ```
 
 ---
