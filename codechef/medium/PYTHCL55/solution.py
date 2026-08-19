@@ -1,3 +1,3 @@
-
+# Update your code here
 x=input()
-print("Hello", x)
+print("hello",x)
