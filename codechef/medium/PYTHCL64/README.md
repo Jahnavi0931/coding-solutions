@@ -4,56 +4,85 @@
 
 ## Problem
 
-### Indentation
+### If Statement
 
 Listen
 
-Let us take a look at the code from last problem.
+The  **`else`**  statement is optional.
+
+Here is an example
 
 ```
-age = int(input())
+grade = 95
+if grade >= 90:
+    print("You got an A")
 
-if age >= 18:
-    print("Old enough to vote")
-else:
-    print("Not old enough to vote")
+# Output:
+# You got an A
 
 ```
 
-Two things to note here:
+In this example, the if condition checks whether the grade is greater than or equal to 90. If the condition is True, the print statement inside the if block is executed, and it prints "`You got an A`".
 
-- There is some space before the print statements.
-- There is a colon (:) after if and else statements.
+If the condition is False, the program skips the if block and moves on to the next part of the code (if any). Since there is no else block in this example, nothing happens if the condition is False.
 
-The space before print is called  **indentation**. Indentation is used to define scope in Python. Because of the space before `print`, Python knows that it has to execute the print statement if the condition becomes True.
-
-The colon after IF and ELSE is also part of the syntax, you will get an error if you forget it.
+The else block is useful when you want to specify an action if the if condition is not met, but it's not necessary if you only need to perform an action when the condition is True.
 
 ### Task
 
-You need to do the following
+Write a program which does the following
 
-- Run the code as is and read the error that you get
-- Add space before the print syntax and then re-run the code
+- Take input for two integer variables a & b
+- Output "Coding is Fun" to the console if a is greater than b
+### Sample 1:
+Input
+Output
+
+```
+25
+20
+```
+
+```
+Coding is Fun
+```
+
+### Explanation:
+
+25 is greater than 20, so we print 'Coding is Fun'
+
+### Sample 2:
+Input
+Output
+
+```
+20
+20
+```
+
+```
+ 
+```
+
+### Explanation:
+
+Since there is no else statement nothing happens if the condition is False. Hence the output is empty
 
 ## Solution
 
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-19T15:31:46.146Z  
+**Submitted:** 2026-08-19T15:33:10.132Z  
 
 ```py
-r = 1000
-w = 3222
-if r > w:
-#This code will not run due to improper indentation
-    print("White balls are out of stock")  
-else:
-#Fix the error by putting a space before both print
-    print("Your order is Confirmed")
+# Update your code below this line
 
-
+a=int(input())
+b=int(input())
+if a>b:
+    print("Coding is Fun")
+    
 ```
 
 ---
