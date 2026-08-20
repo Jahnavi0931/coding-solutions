@@ -9,8 +9,8 @@
 What will be the output of this code?
 
 ```
-a = 5
-b = 10
+a = 0
+b = -10
 
 if a >= b:
    print("a is greater or equal to b.")
@@ -27,7 +27,7 @@ print("Program ends")
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-20T13:55:01.520Z  
+**Submitted:** 2026-08-20T13:55:16.716Z  
 
 ```cpp
 score = int(input())
