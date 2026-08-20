@@ -1,7 +1,7 @@
-# cook your dish here
-age,country=input().split()
-age=int(age)
-if age>=18 and country =="India":
-    print("eligible")
+a,b = map(int,input().split())
+
+# write your code here
+if a+b+(a*b)==111:
+    print("yes")
 else:
-    print("not eligible")
+    print("no")
