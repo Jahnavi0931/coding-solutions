@@ -1,10 +1,8 @@
-# Update the blanks in the code below to solve the problem
-
-r, k = map(int, input().split())
-
-if r>k:
-    print("Ram is heavier than Karan")
-elif r<k:
-    print("Karan is heavier than Ram")
-else:
-    print("Ram & Karan have the same weight")
+score = int(input())
+if score==100:
+    print("perfect score")
+elif score<100 and score>=80:
+    print("almost perfect score")
+elif score<80:
+    print("nice try")
+    
