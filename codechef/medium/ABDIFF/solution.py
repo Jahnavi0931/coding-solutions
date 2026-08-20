@@ -1,7 +1,5 @@
-# cook your dish here
-age,country=input().split()
-age=int(age)
-if age>=18 and country =="India":
-    print("eligible")
-else:
-    print("not eligible")
+a,b = map(int,input().split())
+
+# write your code here
+print(abs((a+b) -(a*b)))
+
