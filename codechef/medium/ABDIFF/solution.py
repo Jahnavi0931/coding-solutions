@@ -1,7 +1,8 @@
-a,b = map(int,input().split())
-
-# write your code here
-if a+b+(a*b)==111:
-    print("yes")
+# cook your dish here
+a,b,c=map(int,input().split())
+if a<b<c:
+    print("increasing")
+elif a>b>c:
+    print("decreasing")
 else:
-    print("no")
+    print("neither")
