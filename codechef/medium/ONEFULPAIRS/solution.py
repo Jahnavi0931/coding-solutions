@@ -1,5 +1,7 @@
 a,b = map(int,input().split())
 
 # write your code here
-print(abs((a+b) -(a*b)))
-
+if a+b+(a*b)==111:
+    print("yes")
+else:
+    print("no")
