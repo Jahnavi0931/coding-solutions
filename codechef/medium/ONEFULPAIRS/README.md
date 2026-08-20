@@ -4,74 +4,77 @@
 
 ## Problem
 
-Chef is taking his baby steps into the world of programming.
+Chef defines a pair of positive integers $(a, b)$ to be a $\text{Oneful Pair}$, if
 
-The very first program he's tasked to write is as follows:
-"Given two integers $A$ and $B$, print $A+B$."
+$a + b + (a \cdot b) = 111$
 
-Unfortunately, Chef makes a typo: his program outputs $A\times B$ instead of $A+B$.
+For example, $(1, 55)$ is a $\text{Oneful Pair}$, since $1 + 55 + (1 \cdot 55) = 56 + 55 = 111$.
+But $(1, 56)$ is not a $\text{Oneful Pair}$, since $1 + 56 + (1 \cdot 56) = 57 + 56 = 113 \neq 111$.
 
-Given the values of $A$ and $B$, can you help Chef find the  *absolute difference*  between the correct answer and the value his program prints?
+Given two positive integers $a$ and $b$, output `Yes` if they are a $\text{Oneful Pair}$. And `No` otherwise.
 
 ### Input Format
 
-The only line of input will contain two space-separated integers, $A$ and $B$.
+The only line of input contains two space-separated integers $a$ and $b$.
 
 ### Output Format
 
-Print a single integer: the difference between the correct answer and Chef's output.
+Output `Yes`, if $(a, b)$ form a $\text{Oneful Pair}$. Output `No` if they do not.
+
+You may print each character of `Yes` and `No` in uppercase or lowercase (for example, `yes`, `yEs`, `Yes` will be considered identical).
 
 ### Constraints
-
-$1 \leq A, B \leq 10$
-
+- $1 \leq a, b \leq 1000$
 ### Sample 1:
 Input
 Output
 
 ```
-4 7
+1 55
+
 ```
 
 ```
-17
+Yes
+
 ```
 
 ### Explanation:
 
-The correct answer is $4+7 = 11$, but Chef's program prints $4\times 7 = 28$.
-The difference between them is $|28 - 11| = 17$.
+$(1, 55)$ is a $\text{Oneful Pair}$, since $1 + 55 + (1 \cdot 55) = 56 + 55 = 111$.
 
 ### Sample 2:
 Input
 Output
 
 ```
-1 6
+1 56
+
 ```
 
 ```
-1
+No
 ```
 
 ### Explanation:
 
-The correct answer is $1+6 = 7$, but Chef's program prints $1\times 6 = 6$.
-The difference between these values is $1$.
+$(1, 56)$ is not a $\text{Oneful Pair}$, since $1 + 56 + (1 \cdot 56) = 57 + 56 = 113 \neq 111$
 
 ## Solution
 
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-20T14:11:41.758Z  
+**Submitted:** 2026-08-20T14:14:40.069Z  
 
 ```py
 a,b = map(int,input().split())
 
 # write your code here
-print(abs((a+b) -(a*b)))
-
+if a+b+(a*b)==111:
+    print("yes")
+else:
+    print("no")
 
 ```
 
