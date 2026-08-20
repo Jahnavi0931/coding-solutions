@@ -4,77 +4,77 @@
 
 ## Problem
 
-Chef defines a pair of positive integers $(a, b)$ to be a $\text{Oneful Pair}$, if
+Chef is taking his baby steps into the world of programming.
 
-$a + b + (a \cdot b) = 111$
+The very first program he's tasked to write is as follows:
+"Given two integers $A$ and $B$, print $A+B$."
 
-For example, $(1, 55)$ is a $\text{Oneful Pair}$, since $1 + 55 + (1 \cdot 55) = 56 + 55 = 111$.
-But $(1, 56)$ is not a $\text{Oneful Pair}$, since $1 + 56 + (1 \cdot 56) = 57 + 56 = 113 \neq 111$.
+Unfortunately, Chef makes a typo: his program outputs $A\times B$ instead of $A+B$.
 
-Given two positive integers $a$ and $b$, output `Yes` if they are a $\text{Oneful Pair}$. And `No` otherwise.
+Given the values of $A$ and $B$, can you help Chef find the  *absolute difference*  between the correct answer and the value his program prints?
 
 ### Input Format
 
-The only line of input contains two space-separated integers $a$ and $b$.
+The only line of input will contain two space-separated integers, $A$ and $B$.
 
 ### Output Format
 
-Output `Yes`, if $(a, b)$ form a $\text{Oneful Pair}$. Output `No` if they do not.
-
-You may print each character of `Yes` and `No` in uppercase or lowercase (for example, `yes`, `yEs`, `Yes` will be considered identical).
+Print a single integer: the difference between the correct answer and Chef's output.
 
 ### Constraints
-- $1 \leq a, b \leq 1000$
+
+$1 \leq A, B \leq 10$
+
 ### Sample 1:
 Input
 Output
 
 ```
-1 55
-
+4 7
 ```
 
 ```
-Yes
-
+17
 ```
 
 ### Explanation:
 
-$(1, 55)$ is a $\text{Oneful Pair}$, since $1 + 55 + (1 \cdot 55) = 56 + 55 = 111$.
+The correct answer is $4+7 = 11$, but Chef's program prints $4\times 7 = 28$.
+The difference between them is $|28 - 11| = 17$.
 
 ### Sample 2:
 Input
 Output
 
 ```
-1 56
-
+1 6
 ```
 
 ```
-No
+1
 ```
 
 ### Explanation:
 
-$(1, 56)$ is not a $\text{Oneful Pair}$, since $1 + 56 + (1 \cdot 56) = 57 + 56 = 113 \neq 111$
+The correct answer is $1+6 = 7$, but Chef's program prints $1\times 6 = 6$.
+The difference between these values is $1$.
 
 ## Solution
 
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-20T14:14:40.069Z  
+**Submitted:** 2026-08-20T14:16:35.554Z  
 
 ```py
-a,b = map(int,input().split())
-
-# write your code here
-if a+b+(a*b)==111:
-    print("yes")
+# cook your dish here
+a,b,c=map(int,input().split())
+if a<b<c:
+    print("increasing")
+elif a>b>c:
+    print("decreasing")
 else:
-    print("no")
+    print("neither")
 
 ```
 
