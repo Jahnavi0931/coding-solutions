@@ -76,7 +76,7 @@ the number is greater than 5
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-21T14:55:15.993Z  
+**Submitted:** 2026-08-21T14:55:21.363Z  
 
 ```py
 #if condition is wrong it should be changed to n>5
