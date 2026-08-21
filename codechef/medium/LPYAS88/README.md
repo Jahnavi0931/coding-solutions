@@ -4,22 +4,22 @@
 
 ## Problem
 
-Identify and correct the logic to check if a number is even. Program should print `true` if number is even, else `false`.
+Rectify the errors in the program to correctly print the last character of the input string.
 
 ### Input Format
-- An integer N
+- Input contains a single string without any space in between.
 ### Output Format
-- true if N is even, else false.
+- Print the last character of the string.
 ### Sample 1:
 Input
 Output
 
 ```
-5
+apple
 ```
 
 ```
-false
+e
 ```
 
 ### Sample 2:
@@ -27,11 +27,11 @@ Input
 Output
 
 ```
-4
+Codechef
 ```
 
 ```
-true
+f
 ```
 
 ## Solution
@@ -39,17 +39,13 @@ true
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-21T14:59:30.530Z  
+**Submitted:** 2026-08-21T15:01:08.627Z  
 
 ```py
 # Debug and fix the code
-n = int(input())
-
-if n % 2 == 0:
-    print("true")
-else:
-    print("false")
-
+str = input()
+n = len(str)
+print(str[-1]) 
 ```
 
 ---
