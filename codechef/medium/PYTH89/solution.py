@@ -1,4 +1,3 @@
-# Update the code below this line
-deeksh=["monday","tuesday","wednesday","thursday"]
-print(deeksh[2])
-print(deeksh[3])
+# Update your code below this line
+list=[10,20,30,40,50,60]
+print(len(list))
