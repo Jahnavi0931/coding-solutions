@@ -4,32 +4,24 @@
 
 ## Problem
 
-### Printing numbers 10 - 0
+### Odd numbers
 
 Listen
 
-Let us change the problem a bit.
-
 ### Task
 
-Write a program to print numbers from $10$ to $0$ on separate lines:
+Write a program to print odd numbers between $10$ to $20$ on separate lines:
 
 - Think of where the loop should start from, declare a variable a and initialise it to that value.
-- Use the while syntax to create a loop, Think of what condition would stop the loop when the iterator reaches its end. Think of how to adjust the value of the iterator within each iteration. Would it be incremented or decremented?
-### Expected Output:
+- Use the while syntax to create a loop, Think of what condition would stop the loop when the iterator reaches its end. Think of how to adjust the value of the iterator within each iteration. Would it be incremented or decremented? By what value should it be incremented or decremented?
+#### Expected output:
 
 ```
-10
-9
-8
-7
-6
-5
-4
-3
-2
-1
-0
+11
+13
+15
+17
+19
 
 ```
 
@@ -38,14 +30,14 @@ Write a program to print numbers from $10$ to $0$ on separate lines:
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-23T15:21:57.459Z  
+**Submitted:** 2026-08-23T15:22:53.316Z  
 
 ```py
-a = 10
-
-while a>=0:
+# cook your dish here
+a=11
+while a<=20:
     print(a)
-    a=a-1
+    a=a+2
 
 ```
 
