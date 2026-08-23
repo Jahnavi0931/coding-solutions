@@ -1,5 +1,5 @@
-a = 10
-
-while a>=0:
+# cook your dish here
+a=11
+while a<=20:
     print(a)
-    a=a-1
+    a=a+2
