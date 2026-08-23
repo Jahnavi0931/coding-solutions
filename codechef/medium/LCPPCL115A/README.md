@@ -43,7 +43,7 @@ You have to print numbers from 5 to 20 in separate lines using a while loop.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-23T15:20:18.501Z  
+**Submitted:** 2026-08-23T15:20:23.397Z  
 
 ```py
 i =5  # Initialisation
