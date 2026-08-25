@@ -4,47 +4,22 @@
 
 ## Problem
 
-### Factorial of any number
-
-Listen
-
-Write a program that does the following
-
-- Declare an integer variable num and initialize it to a user defined input
-- Output to the console the factorial of num Remember to use loops for this problem Factorial of a number n is the product of all the numbers from 1 to n Factorial of a number(n) = n × (n-1) ×... 2 × 1
-### Sample 1:
-Input
-Output
-
-```
-6
-```
-
-```
-The factorial of the given number is: 720
-
-```
+_Description not available._
 
 ## Solution
 
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-25T17:23:46.968Z  
+**Submitted:** 2026-08-25T17:23:26.542Z  
 
 ```py
-# Debug the code below to output the factiorial of a user defined input n
+# Solution as follows
 
 n = int(input())
 
-i = 1
-factorial = 1
-
-while i <= n:
-    factorial = i* factorial
-    i = i + 1
-    
-print("The factorial of the given number is:", factorial)
+for i in range(1, 11):
+    print(n, "x", i, "=", n*i)
 ```
 
 ---
