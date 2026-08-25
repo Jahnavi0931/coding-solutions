@@ -4,22 +4,59 @@
 
 ## Problem
 
-_Description not available._
+### For Loop
+
+Listen
+
+`For loop` can also be used to iterate over a string.
+
+```
+name = "Alice"
+for char in name:
+    print(char)
+
+```
+
+Here, the For loop iterates over each character in the `'name'` string.
+The `'char'` variable takes on the value of each character, and it is printed.
+The output will be:
+
+```
+A
+l
+i
+c
+e
+
+```
+
+### Task
+
+Write a program which does the following:
+
+- You are given a string containing some occurrences of the alphabet 'o'
+- Count how many o's are present in the string using a 'for' loop and 'if' condition and print the count.
 
 ## Solution
 
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-25T17:19:22.469Z  
+**Submitted:** 2026-08-25T17:19:48.021Z  
 
 ```py
-# Solution as follows
+# Count how many 'o's are present in the string using a 'for' loop and 'if' condition
 
-numbers = [1, 6, 4, 3, 2, 5]
+string = 'bolloon'
 
-for i in numbers:
-    print(i)
+# use this variable to count occurrences of o
+count_o = 0      
+for i in string:
+    if i == 'o':
+        # iterate through the string, everytime you find an 'o', increase count_o by 1
+        count_o = count_o + 1
+
+print(count_o)
 ```
 
 ---
