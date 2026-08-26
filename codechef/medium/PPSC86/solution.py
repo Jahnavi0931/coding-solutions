@@ -1,11 +1,11 @@
-# Update the '_' to solve the problem
+# Solution as follows
 
 n = int(input())
-factorial = 1
+sum = 0
 i = 1
 
 while i <= n:
-    factorial = factorial*i
-    i=i+1
+    sum = sum + i
+    i = i+1
     
-print(factorial)
+print(sum)
