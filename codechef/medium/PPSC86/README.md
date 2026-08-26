@@ -4,19 +4,14 @@
 
 ## Problem
 
-### Factorial
+### Sum of N Integers
 
 Listen
 
-Chef's coding journey continues.
-Chef was given an integer input $N$.
+Chef was given an integer input N.
 
-He wrote a code using WHILE loops to output the factorial of N.
-But he wasn't able to complete some parts of the code.
-Help him complete his code.
-
- **Note:**  The factorial of a number $N$ is the product of each number from 1 to $N$.
-$N!$(N factorial)$= 1 \times 2 \times 3 \times..... N$
+He wants to write a code using `while` loops to output the sum of all integers from 1 to $N$.
+Help him complete the code by filling in the blanks.
 
 ### Sample 1:
 Input
@@ -27,7 +22,7 @@ Output
 ```
 
 ```
-120
+15
 ```
 
 ### Sample 2:
@@ -35,11 +30,11 @@ Input
 Output
 
 ```
-8
+10
 ```
 
 ```
-40320
+55
 ```
 
 ## Solution
@@ -47,20 +42,20 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-26T17:48:34.801Z  
+**Submitted:** 2026-08-26T17:47:59.270Z  
 
 ```py
-# Update the '_' to solve the problem
+# Solution as follows
 
 n = int(input())
-factorial = 1
+sum = 0
 i = 1
 
 while i <= n:
-    factorial = factorial*i
-    i=i+1
+    sum = sum + i
+    i = i+1
     
-print(factorial)
+print(sum)
 ```
 
 ---
