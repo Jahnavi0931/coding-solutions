@@ -42,7 +42,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-27T16:56:41.663Z  
+**Submitted:** 2026-08-27T16:57:31.174Z  
 
 ```py
 # Solution as follows
