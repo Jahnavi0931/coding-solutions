@@ -42,7 +42,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-27T17:06:38.801Z  
+**Submitted:** 2026-08-28T17:45:07.976Z  
 
 ```py
 N, M = map(int, input().split())
