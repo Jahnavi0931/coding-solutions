@@ -4,61 +4,84 @@
 
 ## Problem
 
-### Parameters, Arguments
+### Variable scope
 
 Listen
 
-Note that there is a difference between 'PARAMETERS' and 'ARGUMENTS'.
-'Arguments' are actual values passed to a function.
+Scope in Python can be broadly categorized into two types:  **global scope**  and  **local scope** 
 
-Check the code template below
+#### Global scope
+- Variables defined outside of any function have global scope.
+- These variables can be accessed from anywhere in the code, both inside and outside functions.
 
 ```
-# `a`, `b` are `Parameters` inside the function
-# `A`, `B` are `Arguments` passed to the function
+global_var = 10
 
-def add_numbers(a, b):
-    return a + b
+def my_function():
+    print(global_var)  # Accessing the global variable
 
-# Calling the function with arguments
-A = 5
-B = 3
-result = add_numbers(A, B)
-print("Sum:", result)
+print(global_var)  # Accessible here
+my_function()  # Calls the function, which accesses global_var internally
 
 ```
 
-### Task
-
-The code given in the IDE is incorrect.
-Can you debug the code to give the correct output?
-Check the input and expected output below.
-
-### Sample 1:
-Input
-Output
+ **Output** 
 
 ```
- 
-```
+10
+10
 
 ```
-Hello, Alice!
+
+Once we defined the `global_var` at the top, it can be used anywhere in the code.
+
+#### Local scope
+- Variables defined within a function have local scope, meaning they are accessible only within that function.
+- Local scope is limited to the function where the variable is defined.
+
 ```
+def my_function():
+    local_var = 20  # Local variable
+    print(local_var)  # Accessible here
+
+print(local_var)  # Error: local_var is not defined (outside its scope)
+
+```
+
+Because the `local_var` was defined inside the function, you cannot print it outside the function.
+
+#### Accessing Variables from Different Scopes
+- A function can access variables in its local scope, as well as variables in the global scope.
+- However, a local variable will take precedence over a global variable if they have the same name.
+
+ **Review the code in the IDE and click on 'Submit' to know the result.**
 
 ## Solution
 
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-29T16:51:02.353Z  
+**Submitted:** 2026-08-29T16:51:28.364Z  
 
 ```py
-def greet(name):
-    print("Hello, " + name + "!")
+# Click on submit to see the result
 
-name = "Alice"
-greet(name)
+# Global variable
+x = 10
+
+def my_function():
+    # Local variable with the same name as the global variable
+    x = 20
+    
+    # Accesses the local variable
+    print(x)
+
+my_function()
+# Output: 20
+
+print(x)
+# Output: 10 (global variable is not affected)
+
 ```
 
 ---
