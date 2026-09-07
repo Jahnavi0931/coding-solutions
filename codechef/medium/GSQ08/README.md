@@ -58,7 +58,7 @@ Write a query to do the following
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-06T14:59:02.804Z  
+**Submitted:** 2026-09-07T14:43:33.140Z  
 
 ```sql
 /* Write a query to add a column 'Designation' to the table and set 'Null' as the default value. Output the entire table.*/
